@@ -1,11 +1,7 @@
-Inspect and clean Dataset
-
-Set valdiation Set
-
-Create new datas 
-
-Encode columns 
-
-Test and compare models
-
-Measure metrics errors
+Run `python run_pipeline.py` for all stages:
+1. Inspect the original data and clean invalid mean-altitude sentinels.
+2. Split labeled rows into train.csv and validation.csv (stratified, seed 42).
+3. Test row-level engineered features against the original columns.
+4. Impute numeric values and one-hot encode sport, gender, and user_id using training rows only.
+5. Compare models on validation balanced accuracy and macro F1.
+6. Save validation metrics, the best refitted model, and test predictions.

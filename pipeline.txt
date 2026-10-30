@@ -1,0 +1,11 @@
+Inspect and clean Dataset
+
+Set valdiation Set
+
+Create new datas 
+
+Encode columns 
+
+Test and compare models
+
+Measure metrics errors

@@ -1,0 +1,5 @@
+Dataset Description
+train.csv: training workouts, with the target intensity
+test.csv: test workouts, without the target
+sample_submission.csv: a correctly formatted example submission
+Columns: workout_id, user_id (pseudonymous), sport, gender, year, month, weekday, start_hour_utc, duration_min, distance_km, speed_kmh (average), max_speed_kmh (95th percentile), speed_std_kmh, altitude_mean_m, altitude_gain_m, altitude_loss_m, n_points (number of GPS records).

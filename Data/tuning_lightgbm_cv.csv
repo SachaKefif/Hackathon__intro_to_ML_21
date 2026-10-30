@@ -1,0 +1,25 @@
+family,params,mean_test_score,std_test_score,rank_test_score
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.5862955911580384,0.006863269436242223,1
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.5860371190773638,0.0099020449194309,2
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 950, 'model__num_leaves': 63}",0.5855989956203821,0.00836969583867128,3
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 950, 'model__num_leaves': 63}",0.5855836904379194,0.007208402294034963,4
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 950, 'model__num_leaves': 63}",0.5849082346732611,0.007835775125744081,5
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.584612901767081,0.007939134405218026,6
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.5844355689705752,0.0074137492210824074,7
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5841354326538131,0.006177544620190798,8
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 950, 'model__num_leaves': 63}",0.5840979343235798,0.007568525092599634,9
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 950, 'model__num_leaves': 31}",0.5835113734194373,0.005975189689721112,10
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.5831376357096639,0.007098121371651119,11
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.5828743821759393,0.008651149860936123,12
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.5827216097264359,0.008653169146933721,13
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.582408768443413,0.009117813249475207,14
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5822539337993624,0.008259526159262643,15
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 950, 'model__num_leaves': 31}",0.5821158306645458,0.009007645416989181,16
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5820519606219757,0.007218927250001981,17
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5815971179365805,0.007626108444362688,18
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 35, 'model__n_estimators': 950, 'model__num_leaves': 31}",0.5815071371172471,0.007414011691985856,19
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.5813985904297153,0.004421127895634094,20
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 950, 'model__num_leaves': 31}",0.5811341201966372,0.00852549750688466,21
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.06, 'model__min_child_samples': 15, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.58098862443594,0.008425988525017537,22
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 15, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.5778778869047255,0.008038772749902045,23
+lightgbm,"{'features__relative': True, 'model__learning_rate': 0.03, 'model__min_child_samples': 35, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.5762073351720804,0.008774373399086377,24

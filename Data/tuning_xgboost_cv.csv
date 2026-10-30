@@ -1,0 +1,9 @@
+family,params,mean_test_score,std_test_score,rank_test_score
+xgboost,"{'features__relative': True, 'model__max_depth': 5, 'model__min_child_weight': 10}",0.5599782998580384,0.021402509451387004,1
+xgboost,"{'features__relative': True, 'model__max_depth': 5, 'model__min_child_weight': 3}",0.5567496867856595,0.02762880294683563,2
+xgboost,"{'features__relative': True, 'model__max_depth': 3, 'model__min_child_weight': 10}",0.5435309672862223,0.020563579043377578,3
+xgboost,"{'features__relative': True, 'model__max_depth': 3, 'model__min_child_weight': 3}",0.5391904090523454,0.02507983866291042,4
+xgboost,"{'features__relative': False, 'model__max_depth': 5, 'model__min_child_weight': 3}",0.5251381123278384,0.050192567568812296,5
+xgboost,"{'features__relative': False, 'model__max_depth': 5, 'model__min_child_weight': 10}",0.5234936312648614,0.04360303239805198,6
+xgboost,"{'features__relative': False, 'model__max_depth': 3, 'model__min_child_weight': 10}",0.4966460460082103,0.032483997870355906,7
+xgboost,"{'features__relative': False, 'model__max_depth': 3, 'model__min_child_weight': 3}",0.4961580386805183,0.048350433431530324,8

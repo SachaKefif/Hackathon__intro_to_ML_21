@@ -1,0 +1,9 @@
+family,params,mean_test_score,std_test_score,rank_test_score
+catboost,"{'features__relative': True, 'model__depth': 7, 'model__l2_leaf_reg': 3}",0.5569758436930472,0.009337546537347178,1
+catboost,"{'features__relative': True, 'model__depth': 7, 'model__l2_leaf_reg': 8}",0.5539621001060253,0.008191153570148105,2
+catboost,"{'features__relative': True, 'model__depth': 5, 'model__l2_leaf_reg': 3}",0.5462627727341226,0.006122965253703105,3
+catboost,"{'features__relative': True, 'model__depth': 5, 'model__l2_leaf_reg': 8}",0.5415368395127333,0.004144849466999284,4
+catboost,"{'features__relative': False, 'model__depth': 7, 'model__l2_leaf_reg': 3}",0.5141868559455712,0.004883389010706611,5
+catboost,"{'features__relative': False, 'model__depth': 7, 'model__l2_leaf_reg': 8}",0.5120330423012883,0.006968236314772012,6
+catboost,"{'features__relative': False, 'model__depth': 5, 'model__l2_leaf_reg': 3}",0.5018098332378046,0.006583266622175346,7
+catboost,"{'features__relative': False, 'model__depth': 5, 'model__l2_leaf_reg': 8}",0.4992567985699316,0.008969691982089313,8

@@ -14,6 +14,6 @@ The pipeline drops `workout_id` as a predictor. It one-hot encodes `user_id`, `s
 | logistic_engineered      |     0.4461 |              0.4463 |     0.4426 |
 | dummy_baseline           |     0.3346 |              0.3333 |     0.1671 |
 
-The selected model is **random_forest_raw**, with balanced accuracy **0.5536**. The random forest changes from **0.5536** on original features to **0.5470** with the candidate features (difference **-0.0066**). The final saved model was refitted on all 22,728 labeled workouts after selection; its `submission.csv` has 7,669 test predictions.
+This baseline stage selected **random_forest_raw**, with balanced accuracy **0.5536**. The random forest changes from **0.5536** on original features to **0.5470** with the candidate features (difference **-0.0066**). The baseline model was refitted on all 22,728 labeled workouts. Running `train_best_model.py` then grid-searches stronger models for macro F1 and replaces `final_model.joblib` and `submission.csv` with the tuned winner.
 
 Validation scores describe held-out workouts from users already seen in training. They do not estimate performance on new users. Near-zero individual feature importance in `data_analysis.ipynb` is not proof a correlated column can be removed safely.

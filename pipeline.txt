@@ -1,7 +1,8 @@
-Run `python run_pipeline.py` for all stages:
+Run `python train_best_model.py` for all stages:
 1. Inspect the original data and clean invalid mean-altitude sentinels.
 2. Split labeled rows into train.csv and validation.csv (stratified, seed 42).
 3. Test row-level engineered features against the original columns.
 4. Impute numeric values and one-hot encode sport, gender, and user_id using training rows only.
-5. Compare models on validation balanced accuracy and macro F1.
-6. Save validation metrics, the best refitted model, and test predictions.
+5. Grid-search LightGBM, CatBoost, XGBoost, and random forests using 3-fold macro F1.
+6. Compare tuned models and ensembles on validation macro F1.
+7. Refit the winner on all labeled data and save the model, metrics, and test predictions.

@@ -168,7 +168,7 @@ def main() -> None:
         print(f"{name}: balanced accuracy={score['balanced_accuracy']:.4f}, macro F1={score['macro_f1']:.4f}")
 
     comparison = pd.DataFrame(rows).sort_values(
-        ["balanced_accuracy", "macro_f1"], ascending=False
+        ["macro_f1", "balanced_accuracy"], ascending=False
     )
     comparison.to_csv(DATA / "model_comparison.csv", index=False)
     best_name = comparison.loc[comparison["model"] != "dummy_baseline", "model"].iloc[0]
@@ -231,7 +231,7 @@ The pipeline drops `workout_id` as a predictor. It one-hot encodes `user_id`, `s
 
 {comparison.to_markdown(index=False, floatfmt='.4f')}
 
-The selected model is **{best_name}**, with balanced accuracy **{selected_score:.4f}**. The random forest changes from **{raw_score:.4f}** on original features to **{engineered_score:.4f}** with the candidate features (difference **{engineered_score - raw_score:+.4f}**). The final saved model was refitted on all {len(full_clean):,} labeled workouts after selection; its `submission.csv` has {len(submission):,} test predictions.
+This baseline stage selected **{best_name}**, with balanced accuracy **{selected_score:.4f}**. The random forest changes from **{raw_score:.4f}** on original features to **{engineered_score:.4f}** with the candidate features (difference **{engineered_score - raw_score:+.4f}**). The baseline model was refitted on all {len(full_clean):,} labeled workouts. Running `train_best_model.py` then grid-searches stronger models for macro F1 and replaces `final_model.joblib` and `submission.csv` with the tuned winner.
 
 Validation scores describe held-out workouts from users already seen in training. They do not estimate performance on new users. Near-zero individual feature importance in `data_analysis.ipynb` is not proof a correlated column can be removed safely.
 """

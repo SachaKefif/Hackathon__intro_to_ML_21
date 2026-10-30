@@ -1,0 +1,9 @@
+family,params,mean_test_score,std_test_score,rank_test_score
+lightgbm_rank,"{'model__learning_rate': 0.03, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.5852131347785611,0.00733763471947218,1
+lightgbm_rank,"{'model__learning_rate': 0.03, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.5843228685307488,0.007090934155620788,2
+lightgbm_rank,"{'model__learning_rate': 0.06, 'model__n_estimators': 650, 'model__num_leaves': 63}",0.5814702262760085,0.008199002511582383,3
+lightgbm_rank,"{'model__learning_rate': 0.06, 'model__n_estimators': 350, 'model__num_leaves': 63}",0.5811591396054642,0.007242227702552971,4
+lightgbm_rank,"{'model__learning_rate': 0.03, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5809867865305813,0.0012162493280302414,5
+lightgbm_rank,"{'model__learning_rate': 0.06, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.5804709534573923,0.004344621376524237,6
+lightgbm_rank,"{'model__learning_rate': 0.06, 'model__n_estimators': 650, 'model__num_leaves': 31}",0.5789130908935919,0.003058739513682236,7
+lightgbm_rank,"{'model__learning_rate': 0.03, 'model__n_estimators': 350, 'model__num_leaves': 31}",0.5760491324947258,0.0018571924302169932,8
